@@ -23,7 +23,7 @@ module.exports = {
     production : {
       key: 'ssh/id_rsa',
       user : 'deploy',
-      host : '128.199.141.128',
+      host : ['128.199.138.90', '139.59.238.19'],
       ref  : 'origin/master',
       repo : 'https://github.com/togetherWeCode/node-example.git',
       path : '/home/deploy/node-example',
