@@ -27,7 +27,7 @@ module.exports = {
       ref  : 'origin/master',
       repo : 'https://github.com/togetherWeCode/node-example.git',
       path : '/home/deploy/node-example',
-      'post-deploy' : 'nvm install && npm install && pm2 reload ecosystem.config.js --env production'
+      'post-deploy' : 'nvm install && npm install && /home/deploy/.nvm/versions/node/v6.12.3/bin/pm2 reload ecosystem.config.js --env production'
     }
   }
 };
